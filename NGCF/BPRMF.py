@@ -1,8 +1,12 @@
 '''
 Created on Oct 10, 2018
-Tensorflow Implementation of the baseline of "Matrix Factorization with BPR Loss" in:
+Tensorflow Implementation of Neural Graph Collaborative Filtering (NGCF) model in:
 Wang Xiang et al. Neural Graph Collaborative Filtering. In SIGIR 2019.
+
 @author: Xiang Wang (xiangwang@u.nus.edu)
+@modified: Muzhi Guan (guanmz14@mails.tsinghua.edu.cn): 
+Tensorflow Implementation of Socially-Aware Neural Graph Collaborative Filtering (S-NGCF) model in:
+Tsai, Yu-Che, et al. Predicting New Adopters via Socially-Aware Neural Graph Collaborative Filtering. In CSoNet 2019.
 '''
 import tensorflow as tf
 from utility.helper import *
